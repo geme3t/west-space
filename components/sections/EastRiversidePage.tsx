@@ -277,6 +277,7 @@ export default function EastRiversidePage() {
             </div>
 
             <h2>Location</h2>
+            <p>11822 Rockland Street, Windsor, Ontario</p>
             <p>Enjoy easy access to East Riverside amenities and outdoor recreation, including Ganatchio Trail, Blue Heron Lake, East Riverside Park, Sandpoint Beach, shopping, restaurants and everyday services.</p>
 
             <div className="gallery">
@@ -341,14 +342,9 @@ export default function EastRiversidePage() {
           <h2>Rental information</h2>
           <div className="grid">
             <div className="card">
-              <h3>Long-term furnished rental</h3>
-              <p>Minimum 1-year lease preferred. Rental terms, rent, included utilities and tenancy conditions will be confirmed in the Ontario Standard Lease where applicable.</p>
+              <h3>Minimum one month rental</h3>
+              <p>Minimum one-month rental. Rental terms, rent, included utilities and tenancy conditions will be confirmed in the Ontario Standard Lease where applicable.</p>
               <p>Tenant screening may include employment/income verification, credit information and rental references with appropriate consent.</p>
-            </div>
-            <div className="card">
-              <h3>Questions?</h3>
-              <p>Email: <a href="mailto:ridealong.ent@gmail.com">ridealong.ent@gmail.com</a></p>
-              <p>Business: Ride Along Enterprise</p>
             </div>
           </div>
         </section>
