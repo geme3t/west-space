@@ -1,14 +1,15 @@
 "use client";
 
 import Link from "next/link";
+import { BiMenu } from "react-icons/bi";
+
 
 export default function AdminTopbar({ onToggle }: { onToggle: () => void }) {
   return (
     <header className="admin-topbar">
       <div className="admin-topbar-left">
         <button className="mobile-menu-button" onClick={onToggle} aria-label="Open menu">
-          <span className="menu-icon">☰</span>
-          <span className="sr-only">Open menu</span>
+          <BiMenu className="mobile-menu-icon" />
         </button>
         <span className="admin-page-kicker">Owner dashboard</span>
       </div>
