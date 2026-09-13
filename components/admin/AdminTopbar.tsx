@@ -19,7 +19,10 @@ export default function AdminTopbar({ onToggle }: { onToggle: () => void }) {
           <span className="search-icon">⌕</span>
           <span>Search</span>
         </Link>
-        <Link className="btn btn-light header-link" href="/">Public page</Link>
+        <Link className="btn btn-light header-link" href="/">
+          <img className="header-link-logo" src="/icon.svg" alt="" />
+          <span>Public page</span>
+        </Link>
         <button className="profile-button topbar-profile" aria-label="Profile">
           <span className="icon-user">♙</span>
           <span className="profile-text">Owner</span>
