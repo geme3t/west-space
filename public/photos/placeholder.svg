@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#eef4ee"/>
+      <stop offset="1" stop-color="#c7b69c"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#bg)"/>
+  <rect x="70" y="70" width="1060" height="760" rx="24" fill="none" stroke="#17352d" stroke-width="2" opacity="0.9"/>
+  <path d="M260 550 C280 420, 430 300, 600 360 C710 310, 820 350, 850 430 C900 380, 985 390, 1020 455 L1010 635 C960 700, 900 690, 830 660 C760 710, 675 682, 620 635 C570 665, 500 690, 455 650 C410 680, 330 670, 305 640 Z" fill="#e8ded2" opacity="0.9"/>
+  <path d="M310 540 C330 460, 405 420, 470 430" fill="none" stroke="#17352d" stroke-width="2" opacity="0.72"/>
+  <path d="M430 640 C480 525, 525 480, 580 420" fill="none" stroke="#17352d" stroke-width="2" opacity="0.62"/>
+  <path d="M680 430 C750 345, 860 380, 875 460" fill="none" stroke="#17352d" stroke-width="2" opacity="0.62"/>
+  <path d="M760 660 L855 540 L950 660" fill="none" stroke="#17352d" stroke-width="2" opacity="0.78"/>
+  <text x="600" y="760" font-size="45" font-family="Arial, Helvetica, sans-serif" fill="#17352d" text-anchor="middle" letter-spacing="3">EAST RIVERSIDE</text>
+</svg>
