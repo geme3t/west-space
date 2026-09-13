@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#17352d"/>
+  <rect x="36" y="36" width="1128" height="558" rx="28" fill="#2f6f5e"/>
+  <path d="M36 430 C210 360 330 390 475 430 C625 470 760 495 920 430 C1020 390 1095 388 1164 410 L1164 594 L36 594 Z" fill="#c49a55" opacity=".94"/>
+  <path d="M36 475 C210 410 350 445 500 480 C660 518 770 525 930 466 C1035 427 1100 430 1164 449 L1164 594 L36 594 Z" fill="#e8ded2" opacity=".92"/>
+  <rect x="92" y="92" width="84" height="84" rx="18" fill="#f4f7f5"/>
+  <path d="M113 147 L134 119 L155 147 V162 H113 Z M124 145 H144 V162 H124 Z" fill="#17352d"/>
+  <text x="210" y="145" font-family="Georgia, serif" font-size="36" font-weight="700" fill="#f4f7f5">east space</text>
+  <text x="94" y="312" font-family="Georgia, serif" font-size="82" font-weight="700" fill="#ffffff">East Riverside</text>
+  <text x="98" y="366" font-family="Arial, Helvetica, sans-serif" font-size="28" letter-spacing="2" fill="#e8ded2">FURNISHED LIVING IN WINDSOR, ONTARIO</text>
+  <text x="98" y="540" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" letter-spacing="4" fill="#17352d">EAST SPACE  /  STAY LOCAL</text>
+</svg>

@@ -13,8 +13,30 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://east-space.vercel.app"),
   title: "East Riverside Furnished Suite | Windsor, Ontario",
   description: "Comfortable furnished long-term rental in East Riverside, Windsor, Ontario.",
+  openGraph: {
+    type: "website",
+    url: "https://east-space.vercel.app",
+    siteName: "East Space",
+    title: "East Riverside Furnished Suite | Windsor, Ontario",
+    description: "Comfortable furnished long-term rental in East Riverside, Windsor, Ontario.",
+    images: [
+      {
+        url: "/east-space-og.svg",
+        width: 1200,
+        height: 630,
+        alt: "East Space furnished living in East Riverside, Windsor",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "East Riverside Furnished Suite | Windsor, Ontario",
+    description: "Comfortable furnished long-term rental in East Riverside, Windsor, Ontario.",
+    images: ["/east-space-og.svg"],
+  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
