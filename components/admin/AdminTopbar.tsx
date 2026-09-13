@@ -9,7 +9,7 @@ export default function AdminTopbar({ onToggle }: { onToggle: () => void }) {
     <header className="admin-topbar">
       <div className="admin-topbar-left">
         <button className="mobile-menu-button" onClick={onToggle} aria-label="Open menu">
-          <BiMenu className="mobile-menu-icon" />
+          <BiMenu className="mobile-menu-icon h-6 w-6" />
         </button>
         <span className="admin-page-kicker">Owner dashboard</span>
       </div>
