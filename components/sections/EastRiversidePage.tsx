@@ -377,53 +377,6 @@ export default function EastRiversidePage() {
             ) : <p className="small">No prototype bookings entered.</p>}
           </div>
         </section>
-
-        <section style={{ marginTop: "30px", display: "grid", gridTemplateColumns: "1fr 1fr", gap: "24px" }}>
-          <div className="card">
-            <h2>Admin dashboard</h2>
-            <div className="summary">
-              <strong>Listing control center</strong>
-              <div className="dashboard-row"><span className="status-dot live" />East Riverside suite</div>
-            </div>
-            <div className="admin-list">
-              {ADMIN_LISTINGS.map((listing, idx) => (
-                <div className="booking-row" key={idx}>
-                  <span><b>{listing.title}</b><br /><small>{listing.unit}</small></span>
-                  <span className={`mini-badge ${listing.status.toLowerCase()}`}>{listing.status}</span>
-                  <span>{listing.price}</span>
-                </div>
-              ))}
-            </div>
-            <div className="small">Uploads: <span className="small">hero.svg, bedroom1.svg, bedroom2.svg</span></div>
-          </div>
-
-          <div className="card">
-            <h2>User dashboard</h2>
-            <div className="summary">
-              <strong>Applicant activity</strong>
-            </div>
-            <div className="dashboard-list">
-              {APPLICATIONS.map((app, idx) => (
-                <div className="app-row" key={idx}>
-                  <div className="row-top"><span>{app.unit}</span><span className="status-label">{app.status}</span></div>
-                  <div className="row-detail">Start: {app.starts} • {app.cost}</div>
-                  <div className="progress"><div className="progress-bar" style={{ width: `${app.progress}%` }} /></div>
-                </div>
-              ))}
-            </div>
-            <div className="transaction-panel">
-              <h3>Recent transactions</h3>
-              {TRANSACTIONS.map((txn, idx) => (
-                <div className="booking-row" key={idx}>
-                  <span>{txn.name}</span>
-                  <span>{txn.amount}</span>
-                  <span className="small">{txn.status}</span>
-                  <span className="small">{txn.date}</span>
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
       </main>
 
       <footer>
